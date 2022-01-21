@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta id="csrf-token" name="csrf-token" content="{{ csrf_token() }}">
-    <title>SPMS</title>
+    <title>LOPHILS_EXAM</title>
   
     <link rel="stylesheet" href="../node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="../public/custom_css/adminlte.css">

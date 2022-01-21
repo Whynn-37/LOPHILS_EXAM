@@ -143,43 +143,7 @@ class UserController extends Controller
         }
         return $this->returnResponse($result);
     }
-    // public function updateorcreate(Request $request)
-    // {
-    //     $validator = Validator::make($request->all(), [
-    //         'employee_number' => 'required',
-    //         'last_name' => 'required',
-    //         'first_name' => 'required',
-    //         'middle_name' => 'required',
-    //         'email'    => 'nullable|unique:users|regex:/(.*)\.com/i',  // 'email'    => 'nullable|regex:/(.*)fujitsu\.com$/i|unique:users',
-    //         'position' => 'required',
-    //         'status' => 'required',
-    //         'section' => 'required',
-    //         'upload-photo' => 'mimes:jpeg,jpg,png',
-    //     ]);
-
-
-    //     if ($validator->fails()) {
-    //         $result = $this->failedValidationResponse($validator->errors()->all());
-    //     } else {
-    //         DB::beginTransaction();
-    //         try {
-    //             if ($request->hasFile('upload-photo')) {
-    //                 $image  = $request->file('upload-photo');
-    //                 $storagePath = Storage::disk('local')->put('images/user-pic', $image, 'public');
-    //                 $request['photo'] =  basename($storagePath);
-    //             }
-    //             $request['password'] =  bcrypt('User123');
-    //            // return $request;
-    //             $result = $this->successResponse("Updated Successfully");
-    //             $result['data'] = $this->UserService->updateorcreate($request->except('upload-photo'));
-    //             DB::commit();
-    //         } catch (\Exception $e) {
-    //             $result = $this->errorResponse($e);
-    //             DB::rollback();
-    //         }
-    //     }
-    //     return $this->returnResponse($result);
-    // }
+    
     public function change_password(Request $request, $id)
     {
         $validator = Validator::make($request->all(), [

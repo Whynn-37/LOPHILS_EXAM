@@ -1,9 +1,8 @@
  <!-- Main Sidebar Container -->
  <aside class="main-sidebar sidebar-dark-light elevation-4">
     <!-- Brand Logo -->
-    <a href="../node_modules/admin-lte/index3.html" class="brand-link">
-      {{-- <img src="../node_modules/admin-lte/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8"> --}}
-      <span class="brand-text font-weight-light text-center"><b>Spare Parts Management</b></span>
+    <a href="#" class="brand-link">
+      <span class="brand-text font-weight-light text-center"><b>LOPHILS_EXAM</b></span>
     </a>
 
     <!-- Sidebar -->

@@ -3,7 +3,7 @@
 <html lang="en" >
 	<head>
 		<meta charset="utf-8" />
-		<title>SPMS</title>
+		<title>LOPHILS_EXAM</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta http-equiv="Cache-control" content="no-cache">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,7 +17,7 @@
         {
             min-height: 100%;
             min-height: 100vh;
-            display: :flex;
+            display:flex;
             align-items:center;
         }
         /* .card-about {
@@ -80,8 +80,8 @@
                 <div class="card border-0" style="background:transparent">
                     <div class="row ">
                         <div class="col-md-4 text-center">
-                            <h3 style="color:#388BCD; margin-top: 0.3rem">Spare Parts </h3>
-                            <h3 style="color:#388BCD; margin-top: 0.3rem">Management System </h3>
+                            <h3 style="color:#388BCD; margin-top: 0.3rem">LOPHILS</h3>
+                            <h3 style="color:#388BCD; margin-top: 0.3rem">TECHNICAL EXAM</h3>
                             {{-- <img src="../public/image/spm_logo_1.png" style="height:70%; width:100%; margin-top: 1rem; " class="rounded">      --}}
                         </div>
                         <div class="col-md-8">
@@ -89,18 +89,18 @@
                                 <br><br>
                                 <div class="row">
                                   <div class="col-md-6" style="padding-bottom: 0%; padding-right: 0px; padding-left: 0%">
-                                    {{-- <img src="../public/image/img_warehouse.png" style="height:90%; width:100%; margin-top: 5rem; "> --}}
+                                    <!-- {{-- <img src="../public/image/img_warehouse.png" style="height:90%; width:100%; margin-top: 5rem; "> --}} -->
                                   </div>
                                   <div class="col-md-6">
                                     <h3 class="text-white" style="font-size:25px; font-weight:bold;"><u>Sign-In</u></h3><br>             
                                     <input type="text" id="txt_employee_no" class="form-control form-control-lg border-0 text-center" style="background-color:#104977; color:white" placeholder="Enter ID Number" onkeypress="">
                                     <br>
-                                    <input type="text" id="txt_password" class="form-control form-control-lg border-0 text-center" style="background-color:#104977; color:white" placeholder="Enter Password" onkeypress="">
-                                    <i><small class="text-white">Use your barcode scanner, touch screen or keyboard.</small><i>
+                                    <input type="password" id="txt_password" class="form-control form-control-lg border-0 text-center" style="background-color:#104977; color:white" placeholder="Enter Password" onkeypress="">
+                                    <!-- <i><small class="text-white">Use your barcode scanner, touch screen or keyboard.</small><i> -->
                                     <br/> <br/>
                                     <button type="button" class="form-control btn btn-lg btn-login" style="background-color:#27B5F5; color:white;" onclick="LOGIN.sign_up();"><i class="fas fa-qrcode">&nbsp;<label style="font-family:custom-font-label;">Login</label></i></button>
                                     <br/> <br/>
-                                    <button type="button" class="form-control btn btn-lg btn-guest" style="background-color:#7F8389; color:white;" onclick="LOGIN.guest_login();"><i class="fas fa-question-circle">&nbsp;<label style="font-family:custom-font-label;">Guest</label></i></button>
+                                    <!-- <button type="button" class="form-control btn btn-lg btn-guest" style="background-color:#7F8389; color:white;" onclick="LOGIN.guest_login();"><i class="fas fa-question-circle">&nbsp;<label style="font-family:custom-font-label;">Guest</label></i></button> -->
                                       <br>
                                       <a href="#" style="color:white">Forgot Password?</a> 
 

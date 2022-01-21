@@ -66,9 +66,8 @@
                     <label>Position</label>
                     <select class="form-control" name="position" id="slc_position" required>
                       <option disabled selected value="">Select</option>
-                      <option value="Staff"> Staff </option>
-                      <option value="Supervisor"> Supervisor </option>
-                      <option value="Manager"> Manager </option>
+                      <option value="Admin"> Admin </option>
+                      <option value="Editor"> Editor </option>
                     </select>
                   </div>
                 </div>
@@ -77,8 +76,7 @@
                     <label>Section</label>
                     <select class="form-control" name="section" id="slc_section" required>
                       <option disabled selected value="">Select</option>
-                      <option value="Purchasing"> Purchasing </option>
-                      <option value="Production Control"> Production Control </option>
+                      <option value="Admin - HR "> Admin - HR </option>
                       <option value="Management Information System"> Management Information System </option>
                     </select>
                   </div>
