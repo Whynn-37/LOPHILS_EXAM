@@ -60,7 +60,7 @@
 @endsection
 
 @section('custom-js')
-<script src="../node_modules/admin-lte/plugins/jquery/jquery.min.js"></script>  
+<!-- <script src="../node_modules/admin-lte/plugins/jquery/jquery.min.js"></script>   -->
 <script src="../public/scripts/user_management/users.js"></script>
 
 @endsection

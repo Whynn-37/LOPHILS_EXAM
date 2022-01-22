@@ -14,6 +14,7 @@
         </div>
         <div class="info">
           <a href="#" class="d-block mt-2 ml-2">{{Session::get('last_name') .", ". Session::get('first_name')}}</a>
+          <a href="#" class="d-block mt-2 ml-2" id="session_position">({{Session::get('position')}})</a>
         </div>
       </div>
 

@@ -76,7 +76,7 @@
                     <label>Section</label>
                     <select class="form-control" name="section" id="slc_section" required>
                       <option disabled selected value="">Select</option>
-                      <option value="Admin - HR "> Admin - HR </option>
+                      <option value="Admin - HR"> Admin - HR </option>
                       <option value="Management Information System"> Management Information System </option>
                     </select>
                   </div>

@@ -2,6 +2,7 @@
 
 
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\NewsFeedController;
 use App\Http\Middleware\CheckSession;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -64,7 +65,9 @@ Route::post('UpdateOrCreate', [UserController::class, 'updateorcreate']);
 Route::post('user-update/{id}', [UserController::class, 'user_update']);
 
 
-
+//Dashboard(NewsFeed-Management)
+Route::resource('/NewsFeed', NewsFeedController::class);
+Route::post('newsfeed-update/{id}', [NewsFeedController::class, 'newsfeed_update']);
 
 
 

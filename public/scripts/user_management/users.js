@@ -19,23 +19,16 @@ const USER = (() => {
       url: 'UserManagement',
     })
       .then(function (response) {
-
         data = response.data.data;
-
         console.log(data);
-
         $('#tbl_user').DataTable().destroy();
         $('#tbody_tbl_user').empty();
-
         let tbody = '';
         let status = '<h5 class=""> <span class="badge badge-success"> Online </span> </h5>';
-
         data.forEach(value => {
-
           if (value.status != 1) {
             status = '<h5 class=""> <span class="badge badge-danger"> Offline </span> </h5>';
           }
-
           tbody +=
             `<tr class="text-center">
                 <td> ${value.employee_number} </td>
@@ -48,16 +41,12 @@ const USER = (() => {
                 <button class="btn btn-danger btn-md" onclick="USER.show_delete_user(${value.id});"> <span class="fa fa-trash"></span> </button> </td>
                 </tr>`;
         });
-
         $('#tbody_tbl_user').html(tbody);
-
         $('#tbl_user').DataTable({
           "paging": false,
           "ordering": false,
         });
-
         toastr[`${response.data.status}`](`${response.data.message}`)
-
       })
       .catch(function (error) {
         console.log(error);

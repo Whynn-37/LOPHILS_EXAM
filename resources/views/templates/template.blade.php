@@ -13,6 +13,7 @@
     </div>
     
 </body>
-    @yield('custom-js')
+  
     @include('templates.footer')
+    @yield('custom-js')
 </html>

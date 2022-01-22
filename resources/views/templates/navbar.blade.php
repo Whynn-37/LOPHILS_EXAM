@@ -51,11 +51,11 @@
                         
                       </div>
                       {{-- <div class="info">
-                        <a href="#" class="b-block" >Jack Balato</a>
+                        <a href="#" class="b-block" >{{Session::get('last_name') .", ". Session::get('first_name')}}</a>
                        
                       </div> --}}
                       <div style="margin-left:30%;font-size:5px;">
-                        <h5>JACK BALATO</h5>
+                        <h5>{{Session::get('last_name') .", ". Session::get('first_name')}}</h5>
                       </div>
                       
                 </div>
