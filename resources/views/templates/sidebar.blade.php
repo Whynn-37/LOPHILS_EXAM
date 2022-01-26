@@ -2,7 +2,7 @@
  <aside class="main-sidebar sidebar-dark-light elevation-4">
     <!-- Brand Logo -->
     <a href="#" class="brand-link">
-      <span class="brand-text font-weight-light text-center"><b>LOPHILS_EXAM</b></span>
+      <span class="brand-text font-weight-light text-center"><b>Laravel Testing System</b></span>
     </a>
 
     <!-- Sidebar -->

@@ -3,7 +3,7 @@
 <html lang="en" >
 	<head>
 		<meta charset="utf-8" />
-		<title>LOPHILS_EXAM</title>
+		<title>LTS (Laravel Testing System)</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta http-equiv="Cache-control" content="no-cache">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -80,8 +80,8 @@
                 <div class="card border-0" style="background:transparent">
                     <div class="row ">
                         <div class="col-md-4 text-center">
-                            <h3 style="color:#388BCD; margin-top: 0.3rem">LOPHILS</h3>
-                            <h3 style="color:#388BCD; margin-top: 0.3rem">TECHNICAL EXAM</h3>
+                            <h3 style="color:#388BCD; margin-top: 0.3rem">LARAVEL</h3>
+                            <h3 style="color:#388BCD; margin-top: 0.3rem">TESTING SYSTEM</h3>
                             {{-- <img src="../public/image/spm_logo_1.png" style="height:70%; width:100%; margin-top: 1rem; " class="rounded">      --}}
                         </div>
                         <div class="col-md-8">
